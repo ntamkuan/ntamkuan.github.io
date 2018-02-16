@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My resume</title>
+	<title>Sample CV</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,latin-ext" rel="stylesheet" type="text/css" />
+	<meta http-equiv="Generator" content="CV Maker - https://cvmkr.com/" />
 	<style type="text/css">
 		body {
 			background: #f0f0f0;
 			margin: 0;
 			padding: 0;
 			
-			font-family: 'Open Sans', 'Helvetica Light', 'Helvetica Neue', 'Arial Narrow', Helvetica, Arial, serif;
-			font-weight: 300;
-			line-height: 22px;
-			font-size: 14px;
+			font-family: Georgia, 'Myriad Pro', 'Trebuchet MS', Helvetica, Arial;
+			line-height: 18px;
+			font-size: 12px;
 
-			color: #000;
+			color: #222;
 		}
 
 		h1, h2, h3, h4 {
-			font-family: 'Open Sans', 'Helvetica Light', 'Helvetica Neue', 'Arial Narrow', Helvetica, Arial, serif;
-			font-weight: 300;
-			font-weight: normal;
 			margin: 0 0 15px 0;
 			padding: 0;
+			font-weight: normal;
 		}
 		h1 {
-			font-size: 350%;
+			font-size: 400%;
 		}
 		h2 {
 			font-size: 210%;
@@ -42,7 +38,6 @@
 		
 		ul {
 			margin: 0;
-			list-style-type: square;
 		}
 		a {
 			color: #222;
@@ -66,10 +61,12 @@
 		}
 		
 		#title {
-			line-height: 42px;
-			border-bottom: 1px solid #000;
-			padding-bottom: 20px;
 			margin: 0px 0 20px 0;
+			line-height: 42px;
+			color: #111;
+			
+			border-bottom: 1px solid #111;
+			padding-bottom: 5px;
 		}
 		
 		#credit {
@@ -83,6 +80,8 @@
 			}
 		
 		p label {
+			font-weight: bold;
+			
 			font-size: 110%;
 			margin-right: 10px;
 		}
@@ -92,41 +91,18 @@
 
 		
 		.section {
-			margin-bottom: 25px;
+			margin-bottom: 10px;
 		}
-		.section .set {
-		}
+		
 		.item {
 			margin: 0 0 20px 0;
 		}
 
 		/*  _____________________________ */
-		.section .title {
-			text-transform: uppercase;
-			font-size: 160%;
-
-			margin: 0 auto 15px auto;
-			display: block;
-		}
-			.section .set {
-				margin-left: 25px;
-			}
-			.section .set h3 {
-				margin: 0;
-			}
-
-
-
-		.basic-info {
-			border-top: 0;
-		}
-		.section.basic-info .title {
-			float: left;
-			border: 0;
-		}
-		.basic-info .set {
-			float: right;
-			width: 70%;
+		
+		.photo .basic-info .set {
+			float: none !important;
+			width: auto !important;
 		}
 		.basic-info .address {
 			width: 40%;
@@ -134,12 +110,11 @@
 		}
 		.basic-info .r {
 			float: right;
-			width: 60%;
+			width: 58%;
 			text-align: right;
 		}
 			.basic-info label {
-				font-family: 'Open Sans', 'Helvetica Light', 'Helvetica Neue', 'Arial Narrow', Helvetica, Arial, serif;
-				font-weight: 300;
+				font-weight: bold;
 			}
 			.basic-info label, .basic-info span  {
 				display: inline !important;
@@ -148,6 +123,20 @@
 			margin: 0;
 		}
 		
+		.section .title {
+			float: left;
+			font-size: 100%;
+			text-transform: uppercase;
+			width: 16%;
+			margin-right: 20px;
+		}
+		.section .set {
+			float: left;
+			width: 78%;
+		}
+			.section .set h3 {
+				margin: 0;
+			}
 		.section span.value {
 			display: block;
 		}
@@ -161,17 +150,17 @@
 			}
 			.section-education .school,
 			.section-work .job_title {
-				font-size: 100%;
+				font-size: 115%;
 				display: block;
 				margin: 5px 0 5px 0;
 			}
+
 
 		#photo {
 			width: 160px;
 			height: 200px;
 			overflow: hidden;
 			float: left;
-			margin-top: 4px;
 			border-radius: 4px;
 		}
 		#photo img {
@@ -212,15 +201,14 @@
 	
 	<h1 id="title">Nopphawan Tamkuan</h1>
 	<div class="basic-info section">
-		<h2 class="title">Contact</h2>
-		<div class="set">
+				<div class="set">
 		
 							<p class="address">
 					<span class="value">
 						Yamaguchi University<br />Ube<br />Yamaguchi					</span>
 				</p>
 						<div class="r">
-									<p class="email"><span class="value">nopphawan.yui[at]gmail.com</span></p>
+									<p class="email"><label>E-mail<span class="colon">:</span></label> <span class="value">nopphawan.yui@gmail.com</span></p>
 				
 				
 							</div>
@@ -280,7 +268,16 @@
 							<div class="item">
 								<span class="info"><p><span>2013 Best thesis in remote sensing and geographic information systems in application development, RSGIS, AIT</span></p>
 
-<p><span>2011 </span><em><span>Best</span></em><span> poster<em>award</em></span><span>in Thai Student Symposium of Geography and Geo-informatics, cooperated by Faculty of Agriculture, Natural Resources and Environment, Naresuan University and Geographical Association of Thailand.</span></p></span>
+<p><span>2011 </span><em><span>Best</span></em><span> poster Award</span><span> Thai Student Symposium of Geography and Geo-informatics, cooperated by Faculty of Agriculture, Natural Resources and Environment, Naresuan University and Geographical Association of Thailand.</span></p></span>
+							</div>
+						</div>
+			<div class="clear"> </div>
+		</div>
+			<div class="section section-1518753959043">
+			<h2 class="title">Publication</h2>
+			<div class="set">
+							<div class="item">
+								<span class="info"><span>Tamkuan, N.; Nagai, M.	Fusion of Multi-Temporal Interferometric Coherence and Optical Image Data for the 2016 Kumamoto Earthquake Damage Assessment. </span><span style="font-style:italic;">ISPRS Int. J. Geo-Inf.</span><b>2017</b><span>, </span><span style="font-style:italic;">6</span><span>, 188.</span></span>
 							</div>
 						</div>
 			<div class="clear"> </div>
@@ -300,7 +297,7 @@
 			<h2 class="title">Conferences and presentations</h2>
 			<div class="set">
 							<div class="item">
-								<span class="info"><p><span>Oral presentation in the 10<sup>th</sup> international conference on Asia GIS Thailand 2014, 16 <span>– </span>17 June 2014<span> (</span>Topic<span>: </span>Land suitability and crop substitution modeling for cassava and sugarcane in Thailand<span>)</span></span></p>
+								<span class="info"><p><span>Symposium on Satellite Applications for Disaster Management, 9 </span><span>February</span><span> 2019 Udayana University, Bali, Indonesia </span></p><p><span>5th Joint Project Team Meeting for Sentinel Asia STEP3, 22 - 24 January 2019, Taipei, Taiwan</span></p><p><span>Oral presentation in the 10</span><sup>th</sup><span> international conference on Asia GIS Thailand 2014, 16 </span><span>– </span><span>17 June 2014</span><span> (</span><span>Topic</span><span>: </span><span>Land suitability and crop substitution modeling for cassava and sugarcane in Thailand</span><span>)</span></p>
 
 <p><span>Speaker in students and junior researcher</span><span>’</span><span>s presentation part</span><span>in the seminar 2014 GIS for Environmental Management in Asia on 10th February 2014</span><span> (</span><span>Topic</span><span>: </span><span>Biofuel crop substitution modeling using GIS</span><span>)</span></p>
 
@@ -314,6 +311,6 @@
 		
 </div>
 	<div id="credit">Made with <a href="https://cvmkr.com/">CV Maker</a></div>
-	
+
 </body>
 </html>
