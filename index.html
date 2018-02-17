@@ -4,26 +4,30 @@
 	<title>Sample CV</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta http-equiv="Generator" content="CV Maker - https://cvmkr.com/" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300&subset=latin,latin-ext" rel="stylesheet" type="text/css" />
 	<style type="text/css">
 		body {
 			background: #f0f0f0;
 			margin: 0;
 			padding: 0;
 			
-			font-family: Georgia, 'Myriad Pro', 'Trebuchet MS', Helvetica, Arial;
-			line-height: 18px;
-			font-size: 12px;
+			font-family: 'Open Sans', 'Helvetica Light', 'Helvetica Neue', 'Arial Narrow', Helvetica, Arial, serif;
+			font-weight: 300;
+			line-height: 22px;
+			font-size: 14px;
 
-			color: #222;
+			color: #000;
 		}
 
 		h1, h2, h3, h4 {
+			font-family: 'Open Sans', 'Helvetica Light', 'Helvetica Neue', 'Arial Narrow', Helvetica, Arial, serif;
+			font-weight: 300;
+			font-weight: normal;
 			margin: 0 0 15px 0;
 			padding: 0;
-			font-weight: normal;
 		}
 		h1 {
-			font-size: 400%;
+			font-size: 350%;
 		}
 		h2 {
 			font-size: 210%;
@@ -38,6 +42,7 @@
 		
 		ul {
 			margin: 0;
+			list-style-type: square;
 		}
 		a {
 			color: #222;
@@ -61,12 +66,10 @@
 		}
 		
 		#title {
-			margin: 0px 0 20px 0;
 			line-height: 42px;
-			color: #111;
-			
-			border-bottom: 1px solid #111;
-			padding-bottom: 5px;
+			border-bottom: 1px solid #000;
+			padding-bottom: 20px;
+			margin: 0px 0 20px 0;
 		}
 		
 		#credit {
@@ -80,8 +83,6 @@
 			}
 		
 		p label {
-			font-weight: bold;
-			
 			font-size: 110%;
 			margin-right: 10px;
 		}
@@ -91,18 +92,41 @@
 
 		
 		.section {
-			margin-bottom: 10px;
+			margin-bottom: 25px;
 		}
-		
+		.section .set {
+		}
 		.item {
 			margin: 0 0 20px 0;
 		}
 
 		/*  _____________________________ */
-		
-		.photo .basic-info .set {
-			float: none !important;
-			width: auto !important;
+		.section .title {
+			text-transform: uppercase;
+			font-size: 160%;
+
+			margin: 0 auto 15px auto;
+			display: block;
+		}
+			.section .set {
+				margin-left: 25px;
+			}
+			.section .set h3 {
+				margin: 0;
+			}
+
+
+
+		.basic-info {
+			border-top: 0;
+		}
+		.section.basic-info .title {
+			float: left;
+			border: 0;
+		}
+		.basic-info .set {
+			float: right;
+			width: 70%;
 		}
 		.basic-info .address {
 			width: 40%;
@@ -110,11 +134,12 @@
 		}
 		.basic-info .r {
 			float: right;
-			width: 58%;
+			width: 60%;
 			text-align: right;
 		}
 			.basic-info label {
-				font-weight: bold;
+				font-family: 'Open Sans', 'Helvetica Light', 'Helvetica Neue', 'Arial Narrow', Helvetica, Arial, serif;
+				font-weight: 300;
 			}
 			.basic-info label, .basic-info span  {
 				display: inline !important;
@@ -123,20 +148,6 @@
 			margin: 0;
 		}
 		
-		.section .title {
-			float: left;
-			font-size: 100%;
-			text-transform: uppercase;
-			width: 16%;
-			margin-right: 20px;
-		}
-		.section .set {
-			float: left;
-			width: 78%;
-		}
-			.section .set h3 {
-				margin: 0;
-			}
 		.section span.value {
 			display: block;
 		}
@@ -150,17 +161,17 @@
 			}
 			.section-education .school,
 			.section-work .job_title {
-				font-size: 115%;
+				font-size: 100%;
 				display: block;
 				margin: 5px 0 5px 0;
 			}
-
 
 		#photo {
 			width: 160px;
 			height: 200px;
 			overflow: hidden;
 			float: left;
+			margin-top: 4px;
 			border-radius: 4px;
 		}
 		#photo img {
@@ -201,16 +212,18 @@
 	
 	<h1 id="title">Nopphawan Tamkuan</h1>
 	<div class="basic-info section">
-				<div class="set">
+		<h2 class="title">Contact</h2>
+		<div class="set">
 		
 							<p class="address">
 					<span class="value">
-						Yamaguchi University<br />Ube<br />Yamaguchi					</span>
+						1-10-24-101<br />Hagashi-Kaji-Gaeshi, Ube<br />Yamaguchi, 755-0039					</span>
 				</p>
 						<div class="r">
-									<p class="email"><label>E-mail<span class="colon">:</span></label> <span class="value">nopphawan.yui@gmail.com</span></p>
+									<p class="email"><span class="value">ntamkuan@yamaguchi-u.ac.jp, nopphawan.yui@gmail.com</span></p>
 				
 				
+									<p class="phone"><span class="value">+81 (0) 9049472710</span></p>
 							</div>
 			<div class="clear"> </div>
 		</div><!-- set //-->
@@ -268,7 +281,7 @@
 							<div class="item">
 								<span class="info"><p><span>2013 Best thesis in remote sensing and geographic information systems in application development, RSGIS, AIT</span></p>
 
-<p><span>2011 </span><em><span>Best</span></em><span> poster Award</span><span> Thai Student Symposium of Geography and Geo-informatics, cooperated by Faculty of Agriculture, Natural Resources and Environment, Naresuan University and Geographical Association of Thailand.</span></p></span>
+<p><span>2011 </span><em><span>Best</span></em><span> poster award</span><span> Thai Student Symposium of Geography and Geo-informatics, cooperated by Faculty of Agriculture, Natural Resources and Environment, Naresuan University and Geographical Association of Thailand.</span></p></span>
 							</div>
 						</div>
 			<div class="clear"> </div>
@@ -301,7 +314,7 @@
 
 <p><span>Speaker in students and junior researcher</span><span>’</span><span>s presentation part</span><span>in the seminar 2014 GIS for Environmental Management in Asia on 10th February 2014</span><span> (</span><span>Topic</span><span>: </span><span>Biofuel crop substitution modeling using GIS</span><span>)</span></p>
 
-<p><span>Poster</span><span>presentation in</span><span>CRMA exhibition, Chulachomklao Royal Military Academy, on 12 and 13 December 2013, Nakhonayok, Thailand</span></p>
+<p><span>Poster </span><span>presentation in</span><span>CRMA exhibition, Chulachomklao Royal Military Academy, on 12 and 13 December 2013, Nakhonayok, Thailand</span></p>
 
 <p><span>Poster presentation in the research exhibition held by student unit academic, AIT on 4 November 2015</span></p></span>
 							</div>
@@ -311,6 +324,6 @@
 		
 </div>
 	<div id="credit">Made with <a href="https://cvmkr.com/">CV Maker</a></div>
-
+	
 </body>
 </html>
